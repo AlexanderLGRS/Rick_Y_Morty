@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//alexanderlgrs.github.io/Rick_Y_Morty/static/css/main.c1596fca.css",
+    "main.js": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/main.fe0c84d7.js",
+    "static/js/787.c017680e.chunk.js": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/787.c017680e.chunk.js",
+    "index.html": "//alexanderlgrs.github.io/Rick_Y_Morty/index.html",
+    "main.c1596fca.css.map": "//alexanderlgrs.github.io/Rick_Y_Morty/static/css/main.c1596fca.css.map",
+    "main.fe0c84d7.js.map": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/main.fe0c84d7.js.map",
+    "787.c017680e.chunk.js.map": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/787.c017680e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1596fca.css",
+    "static/js/main.fe0c84d7.js"
+  ]
+}
