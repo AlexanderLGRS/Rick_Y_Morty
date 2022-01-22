@@ -25,7 +25,7 @@ function App() {
         setCharacterStatus(data.results[characterIndex].status)
         document.title = `R&M || ${data.results[characterIndex].name}`;
       });
-  }, [characterIndex])
+  }, [characterIndex, pageNumber])
 
   const increasePage = () => {
     if (pageNumber < 42) {
