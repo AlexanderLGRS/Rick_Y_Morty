@@ -9,10 +9,11 @@ function App() {
   const [characterImg, setCharacterImg] = useState('')
   const [characterStatus, setCharacterStatus] = useState('')
   const [characterSpecies, setCharacterSpecies] = useState('')
+  const [pageNumber, setPageNumber] = useState(1)
 
 
   useEffect(() => {
-    fetch('https://rickandmortyapi.com/api/character/?page=19',
+    fetch(`https://rickandmortyapi.com/api/character/?page=19 ${pageNumber}`,
     )
       .then(response => response.json())
       .then(data => {
@@ -27,23 +28,36 @@ function App() {
   }, [characterIndex])
 
   const increase = () => {
+    if (pageNumber < 20) {
+      setPageNumber(pageNumber + 1)
+    }
+  }
+  const decrease = () => {
+    if (pageNumber > 0) {
+      setPageNumber(pageNumber - 1)
+    }
+  }
+
+
+  const increasePage = () => {
     if (characterIndex < list) {
       setCharacterIndex(characterIndex + 1)
     }
   }
-  const decrease = () => {
+  const decreasePage = () => {
     if (characterIndex > 0) {
       setCharacterIndex(characterIndex - 1)
     }
   }
   return (
     <React.Fragment>
+
       <div className="buttons-container">
         <button type="button" class="boton btn btn-primary" onClick={decrease}>
-        <img className='prev' src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-left-arrow-miscellaneous-kiranshastry-solid-kiranshastry.png"/>
+          <img className='prev' src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-left-arrow-miscellaneous-kiranshastry-solid-kiranshastry.png" />
         </button>
         <button type="button" class="boton btn btn-primary" onClick={increase}>
-        <img className='next' src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-left-arrow-miscellaneous-kiranshastry-solid-kiranshastry.png"/>
+          <img className='next' src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-left-arrow-miscellaneous-kiranshastry-solid-kiranshastry.png" />
         </button>
       </div>
       <div className="card">
@@ -51,6 +65,15 @@ function App() {
         <img className='character-img' src={characterImg} alt="" />
         <p className='badge bg-success text-dark'>{characterSpecies}</p>
         <p className='badge bg-warning text-dark'>{characterStatus}</p>
+      </div>
+
+      <div className="buttons-container">
+        <button type="button" class="boton btn btn-primary" onClick={decreasePage}>
+          Pevious Page
+        </button>
+        <button type="button" class="boton btn btn-primary" onClick={increasePage}>
+          Next Page
+        </button>
       </div>
     </React.Fragment >
   );
