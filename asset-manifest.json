@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "//alexanderlgrs.github.io/Rick_Y_Morty/static/css/main.f8e5321b.css",
-    "main.js": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/main.9027bf2d.js",
+    "main.js": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/main.61d0515c.js",
     "static/js/787.c017680e.chunk.js": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/787.c017680e.chunk.js",
     "index.html": "//alexanderlgrs.github.io/Rick_Y_Morty/index.html",
     "main.f8e5321b.css.map": "//alexanderlgrs.github.io/Rick_Y_Morty/static/css/main.f8e5321b.css.map",
-    "main.9027bf2d.js.map": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/main.9027bf2d.js.map",
+    "main.61d0515c.js.map": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/main.61d0515c.js.map",
     "787.c017680e.chunk.js.map": "//alexanderlgrs.github.io/Rick_Y_Morty/static/js/787.c017680e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8e5321b.css",
-    "static/js/main.9027bf2d.js"
+    "static/js/main.61d0515c.js"
   ]
 }
