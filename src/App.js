@@ -28,7 +28,7 @@ function App() {
   }, [characterIndex])
 
   const increasePage = () => {
-    if (pageNumber < 20) {
+    if (pageNumber < 42) {
       setPageNumber(pageNumber + 1)
     }
   }
@@ -71,6 +71,7 @@ function App() {
         <button type="button" class="boton btn btn-primary" onClick={decreasePage}>
           Pevious Page
         </button>
+        <span>{pageNumber}</span>
         <button type="button" class="boton btn btn-primary" onClick={increasePage}>
           Next Page
         </button>
