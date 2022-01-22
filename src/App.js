@@ -13,7 +13,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch(`https://rickandmortyapi.com/api/character/?page=19 ${pageNumber}`,
+    fetch(`https://rickandmortyapi.com/api/character/?page=${pageNumber}`,
     )
       .then(response => response.json())
       .then(data => {
@@ -27,24 +27,24 @@ function App() {
       });
   }, [characterIndex])
 
-  const increase = () => {
+  const increasePage = () => {
     if (pageNumber < 20) {
       setPageNumber(pageNumber + 1)
     }
   }
-  const decrease = () => {
+  const decreasePage = () => {
     if (pageNumber > 0) {
       setPageNumber(pageNumber - 1)
     }
   }
 
 
-  const increasePage = () => {
+  const increase = () => {
     if (characterIndex < list) {
       setCharacterIndex(characterIndex + 1)
     }
   }
-  const decreasePage = () => {
+  const decrease = () => {
     if (characterIndex > 0) {
       setCharacterIndex(characterIndex - 1)
     }
