@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/alexanderlgrs.github.io/Rick_Y_Morty/static/css/main.2390d7f0.css",
-    "main.js": "/alexanderlgrs.github.io/Rick_Y_Morty/static/js/main.ea0d5057.js",
-    "static/js/787.c017680e.chunk.js": "/alexanderlgrs.github.io/Rick_Y_Morty/static/js/787.c017680e.chunk.js",
-    "index.html": "/alexanderlgrs.github.io/Rick_Y_Morty/index.html",
-    "main.2390d7f0.css.map": "/alexanderlgrs.github.io/Rick_Y_Morty/static/css/main.2390d7f0.css.map",
-    "main.ea0d5057.js.map": "/alexanderlgrs.github.io/Rick_Y_Morty/static/js/main.ea0d5057.js.map",
-    "787.c017680e.chunk.js.map": "/alexanderlgrs.github.io/Rick_Y_Morty/static/js/787.c017680e.chunk.js.map"
+    "main.css": "/Rick_Y_Morty/static/css/main.b2545946.css",
+    "main.js": "/Rick_Y_Morty/static/js/main.d456a8d9.js",
+    "static/js/787.c017680e.chunk.js": "/Rick_Y_Morty/static/js/787.c017680e.chunk.js",
+    "index.html": "/Rick_Y_Morty/index.html",
+    "main.b2545946.css.map": "/Rick_Y_Morty/static/css/main.b2545946.css.map",
+    "main.d456a8d9.js.map": "/Rick_Y_Morty/static/js/main.d456a8d9.js.map",
+    "787.c017680e.chunk.js.map": "/Rick_Y_Morty/static/js/787.c017680e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2390d7f0.css",
-    "static/js/main.ea0d5057.js"
+    "static/css/main.b2545946.css",
+    "static/js/main.d456a8d9.js"
   ]
 }
