@@ -54,11 +54,9 @@ function App() {
     <React.Fragment>
 
       <div className='card-container'>
-
         <button type="button" className="button" onClick={decrease}>
           <img className='prev' src="https://img.icons8.com/glyph-neue/64/000000/hand-left.png" />
         </button>
-
         <div className="card">
           <div className="principal-info">
             <h2 className='character-name' >{characterName}</h2>
@@ -71,7 +69,6 @@ function App() {
         <button type="button" className="button" onClick={increase}>
           <img className='next' src="https://img.icons8.com/glyph-neue/64/000000/hand-left.png" />
         </button>
-
       </div>
       <div className="buttons-container">
         <button type="button" className="page-button" onClick={decreasePage}>
