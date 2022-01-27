@@ -31,11 +31,13 @@ function App() {
   const increasePage = () => {
     if (pageNumber < 42) {
       setPageNumber(pageNumber + 1)
+      setCharacterIndex(0)
     }
   }
   const decreasePage = () => {
     if (pageNumber > 0) {
       setPageNumber(pageNumber - 1)
+      setCharacterIndex(0)
     }
   }
 
