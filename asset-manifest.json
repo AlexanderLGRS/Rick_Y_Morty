@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Rick_Y_Morty/static/css/main.b2545946.css",
-    "main.js": "/Rick_Y_Morty/static/js/main.d456a8d9.js",
+    "main.js": "/Rick_Y_Morty/static/js/main.153c7fa6.js",
     "static/js/787.c017680e.chunk.js": "/Rick_Y_Morty/static/js/787.c017680e.chunk.js",
     "index.html": "/Rick_Y_Morty/index.html",
     "main.b2545946.css.map": "/Rick_Y_Morty/static/css/main.b2545946.css.map",
-    "main.d456a8d9.js.map": "/Rick_Y_Morty/static/js/main.d456a8d9.js.map",
+    "main.153c7fa6.js.map": "/Rick_Y_Morty/static/js/main.153c7fa6.js.map",
     "787.c017680e.chunk.js.map": "/Rick_Y_Morty/static/js/787.c017680e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2545946.css",
-    "static/js/main.d456a8d9.js"
+    "static/js/main.153c7fa6.js"
   ]
 }
